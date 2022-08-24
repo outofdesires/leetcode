@@ -1,7 +1,6 @@
 #recursion
 class Solution:
     def longestSubstring(self, s: str, k: int) -> int:
-        
         def rec(st):
             ans=0
             if len(st)<1:
